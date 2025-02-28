@@ -1,7 +1,7 @@
 // All students
 let studentCards = [];
 
-// ------------------------ LOCAL STORAGE FUNCTIONS ------------------------
+// ------------------------ LOCAL STORAGE  ------------------------
 
 // Load data from localStorage when page loads
 function loadGrades() {
@@ -27,10 +27,10 @@ function saveStudentCards() {
     localStorage.setItem("studentCards", json);
 }
 
-// ------------------------ DOM MANIPULATION FUNCTIONS ------------------------
+// ------------------------ DOM ------------------------
 
 // Display all student cards in the container
-function displayStudentCards() {
+function displayStudentCards() {    
 
     // 1. Get the container element
     const container = document.getElementById('studentContainer');
